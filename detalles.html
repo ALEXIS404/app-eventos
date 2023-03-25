@@ -33,7 +33,7 @@
   <!-- Contenido de la aplicacion -->
  
   <main class="py-6 px-4 sm:p-6 md:py-10 md:px-8">
-    <div class="max-w-4xl mx-auto grid grid-cols-1 lg:max-w-5xl lg:gap-x-20 lg:grid-cols-2">
+    <div class="max-w-4xl mx-auto grid grid-cols-1 lg:max-w-5xl lg:gap-x-20 lg:grid-cols-2 ">
       <div class="relative p-3 col-start-1 row-start-1 flex flex-col-reverse rounded-lg bg-gradient-to-t from-black/75 via-black/0 sm:bg-none sm:row-start-2 sm:p-0 lg:row-start-1">
       </div>
       <div class="grid gap-4 col-start-1 col-end-3 row-start-1 sm:mb-6 sm:grid-cols-4 lg:gap-6 lg:col-start-2 lg:row-end-6 lg:row-span-6 lg:mb-0">
@@ -47,7 +47,7 @@
             <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z" />
           </svg>          
           <span>15 August<span class="text-slate-400 font-normal"></span></span>
-       >
+       
         <dt class="sr-only">Location</dt>
         <dd class="text-red-600 flex items-center dark:text-indigo-400">
           <svg width="2" height="2" aria-hidden="true" fill="currentColor" class="mx-3 text-red-300">
@@ -71,25 +71,31 @@
           Luctus Center
         </dd>
       </dl>
+    </div>
 
-      <!-- <div class="container mx-auto space-y-2 lg:space-y-0 lg:gap-2 lg:grid lg:grid-cols-3">
-        <div class="w-full rounded hover:shadow-2xl">
-            <img src="./src/images/video1.jpg"
-                alt="image">
-        </div>
-        <div class="w-full rounded hover:opacity-50">
-            <img src="./src/images/video1.jpg"
-                alt="image">
-        </div>
-        <div class="w-full rounded hover:shadow-2xl">
-            <img src="./src/images/video1.jpg"
-                alt="image">
-        </div>
-    </div> -->
+<div class=" grid grid-cols-3 gap-2 p-4">
+  <video class="w-full" controls>
+    <source src="/docs/videos/flowbite.mp4" type="video/mp4">
+    Your browser does not support the video tag. 
+  </video>
+  
+  <video class="w-full" controls>
+    <source src="/docs/videos/flowbite.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  
+  <video class="w-full" controls>
+    <source src="/docs/videos/flowbite.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+      
+
+
 
      <div class="mt-4 col-start-1 row-start-3 self-center sm:mt-0 sm:col-start-2 sm:row-start-2 sm:row-span-2 lg:mt-6 lg:col-start-1 lg:row-start-3 lg:row-end-4">
         </div>
-      <p class="mt-4 text-sm leading-6 col-start-1 sm:col-span-2 lg:mt-6 lg:row-start-4 lg:col-span-1 dark:text-slate-400">
+      <p class="text-center mt-4 text-sm leading-6 col-start-1 sm:col-span-2 lg:mt-6 lg:row-start-4 lg:col-span-1 dark:text-slate-400">
         This sunny and spacious room is for those traveling light and looking for a comfy and cosy place to lay their head for a night or two. This beach house sits in a vibrant neighborhood littered with cafes, pubs, restaurants and supermarkets and is close to all the major attractions such as Edinburgh Castle and Arthur's Seat.
       </p>
     </div>
