@@ -14,4 +14,19 @@ header {
     @apply bg-gray-800;
 }
 
+.father-days > .border{
+    width: 34px;
+    height: 34px;
+}
 
+.contenido {
+    margin: 12px;
+}
+
+.onecolumn {
+margin: 0 12px 0 12px; 
+}
+
+.father-days > .border{
+    text-align: center;
+}
