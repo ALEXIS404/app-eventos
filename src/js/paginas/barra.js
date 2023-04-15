@@ -24,7 +24,7 @@ class="fixed z-50 w-full h-16 max-w-lg -translate-x-1/2 bg-white border border-g
           <div class="tooltip-arrow" data-popper-arrow></div>
       </div>
       <div class="flex items-center justify-center">
-          <button data-tooltip-target="tooltip-new" type="button" class="inline-flex items-center justify-center w-10 h-10 font-medium bg-pink-600 rounded-full hover:bg-pink-700 group focus:ring-4 focus:ring-pink-300 focus:outline-none dark:focus:ring-pink-800">
+          <button data-tooltip-target="tooltip-new" type="button" class="inline-flex items-center justify-center w-10 h-10 font-medium bg-red-600 rounded-full hover:bg-red-700 group focus:ring-4 focus:ring-red-300 focus:outline-none dark:focus:ring-red-800">
               <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                   <path clip-rule="evenodd" fill-rule="evenodd" d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"></path>
               </svg>
