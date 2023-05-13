@@ -7,6 +7,7 @@ export default defineConfig({
   //:home: En esta linea se cambia la frase /eventos-app/ por el nombre de su repositorio
   base: env.mode === "production" ? "/app-eventos/" : "/",
   build: {
+    target: "esnext", //para compatibilidad de navegadores
     outDir: "docs",
     assetsDir: "assets",
     rollupOptions: {
