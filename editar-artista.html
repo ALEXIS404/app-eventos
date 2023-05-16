@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editando datos de un artista</title>
+</head>
+<body>
+    <main>
+        <form method="post">
+            <!-- Nombre del artista -->
+            <label for="nombre">Nombre del artista</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre del artista">
+    
+            <!-- Nacionalidad del artista -->
+            <label for="nacionalidad">Nacionalidad del artista</label>
+            <input type="text" name="nacionalidad" id="nacionalidad" placeholder="Nacinalidad del artista">
+    
+            <!-- Imagen del artista -->
+            <label for="imagen">Imagen del artista</label>
+            <input type="text" name="imagen" id="imagen" placeholder="Imagen del artista">
+    
+            <!-- Select para el género -->
+            <label for="genero">Género</label>
+            <select id="genero" name="genero">
+                <!-- Lista de genero usando el value y el texto igual -->
+                <option value="rock">Rock</option>
+                <option value="pop">Pop</option>
+                <option value="reggaeton">Reggaeton</option>
+                <option value="trap">Trap</option>
+                <option value="hip-hop">Hip-Hop</option>
+                <option value="indie">Indie</option>
+                <option value="electronica">Electrónica</option>
+                <option value="r&b">R&B</option>
+                <option value="jazz">Jazz</option>
+            </select>
+    
+            <!-- Guardar -->
+            <input id="guardar" type="button" value="Guardar">
+        </form>
+        </main>
+    <div id="barra"></div>
+    <script src="./src/js/main.js" type="module"></script>
+    <script src="./src/js/modelos/artistas.js" type="module"></script>
+
+</body>
+</html>

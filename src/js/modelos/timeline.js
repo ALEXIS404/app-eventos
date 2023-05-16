@@ -15,7 +15,7 @@ querySnapshot.forEach((doc) => {
   // doc.data() is never undefined for query doc snapshots
   let eventos = doc.data();
   eventos_contenedor.innerHTML += `<li>${eventos.nombre} - ${eventos.artista_id} 
-  <img src="${eventos.imagen}" alt=${eventos.nombre}" class="w-48 h-48 rounded-full">
+  <img src="${eventos.imagen}" alt=${eventos.nombre}" class="">
    
   </li>`;
 });

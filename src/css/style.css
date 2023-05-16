@@ -33,3 +33,32 @@ header {
 .seleccionado {
   @apply w-10 h-10 bg-red-500 text-white;
 }
+
+#artistas{
+  @apply flex flex-col m-10 gap-4 min-w-[600px];
+}
+
+#artistas li{
+  @apply hover:shadow-lg hover:shadow-pink-400 hover:cursor-pointer hover:bg-pink-200 py-2 text-3xl bg-pink-50 rounded-lg flex px-6 justify-between items-center border border-pink-500;
+}
+
+#artistas li > div{
+  @apply flex flex-col gap-2;
+}
+
+#artistas a{
+  @apply border border-pink-500 rounded-lg px-2 py-1 bg-pink-50 text-pink-500 hover:bg-pink-500 hover:text-pink-50;
+}
+
+form {
+  @apply flex flex-col gap-4;
+}
+
+input, select{
+  @apply text-gray-800 border border-pink-500 rounded-lg px-2 py-1 bg-pink-50 hover:bg-pink-200 hover:text-pink-50;
+}
+
+label{
+  @apply text-gray-800;
+}
+
